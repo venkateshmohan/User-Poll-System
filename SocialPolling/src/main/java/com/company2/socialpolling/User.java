@@ -22,12 +22,6 @@ import javax.persistence.Table;
 import org.hibernate.annotations.Type;
 import org.springframework.lang.NonNull;
 
-/**
- * @author anurag
- *
- *         User class is mapped to the user table in the database. Contains the
- *         username and password.
- */
 @Entity
 @Table(name = "User")
 public class User {
