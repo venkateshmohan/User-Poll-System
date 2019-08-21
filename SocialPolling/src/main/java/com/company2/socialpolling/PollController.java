@@ -16,10 +16,6 @@ import java.util.Date;
 import java.sql.Timestamp;
 import org.springframework.beans.factory.annotation.Autowired;
 
-/**
- * @author Sravya
- *
- */
 @Controller
 public class PollController {
 	
