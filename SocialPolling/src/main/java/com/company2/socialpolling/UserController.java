@@ -28,12 +28,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-
-/**
- * @author anurag
- *
- * Controller for users
- */
 @Controller
 @RequestMapping(path = "/user")
 public class UserController {
