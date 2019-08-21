@@ -13,11 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-/**
- * @author abi
- *
- * Controller for user Poll
- */
 @Controller
 @RequestMapping(path = "/userpoll")
 public class UserPollController {
